@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Palindrome Checker</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="public/main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Palindrome Checker</h1>
+    </header>
+
+    <form name="check-palindrome" id="myForm">
+      <div class="form-group" id="elem">
+        <label for="input">Enter a word or phrase: </label>
+        <textarea name="phrase" id="input"></textarea>
+      </div>
+      <div class="form-group hidden" id="error-container">
+        <div class="error" id="error-text"></div>
+      </div>
+      <div class="form-group" id="submitdiv">
+        <button type="submit" value="Submit" id="submitbtn">Submit</button>
+      </div>
+    </form>
+    <div class="orderDiv">
+      <ol id="attempts"></ol>
+    </div>
+
+    <footer id="footer">
+      Sahil Naik 10475519<br />
+      CS Fall 2021
+    </footer>
+    <script src="/public/palindrome.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+
+
+<main>
+  
+  <div class="character-detail">
+    <a class="home" href="/">Make Another Search</a>
+<br>
+<br>
+
+    <img
+      src={{character.thumbnail.path}}/portrait_xlarge.{{character.thumbnail.extension}} alt={{character.name}}
+    />
+    <p>{{character.description}}</p>
+    
+    <h2>Comics</h2>
+    {{#if character.comics.items}}
+      <ul class="comics">
+        {{#each character.comics.items}}
+          <li>
+            {{this.name}}
+          </li>
+        {{/each}}
+      </ul>
+    {{else}}
+      <p class="not-found">No comics found</p>
+    {{/if}}
+  </div>
+</main>

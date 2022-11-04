@@ -1,0 +1,19 @@
+{
+  "name": "cs-546-lab-10",
+  "version": "1.0.0",
+  "description": "Assignment 10",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Sahil Naik 10475519",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.1",
+    "express-session": "^1.17.2",
+    "mongodb": "^3.6.9"
+  }
+}

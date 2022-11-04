@@ -1,0 +1,36 @@
+.hidden{
+    display: none;
+}
+body{
+    background-color: hsl(0, 59%, 89%);
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+#show, #genre{
+    display: inline-block;
+
+}
+a{
+    color: black;
+    
+}
+#error{
+    color: red;
+}
+a:visited{
+    color: rgb(197, 67, 78);
+}
+button{
+    background-color: rgb(197, 67, 78);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+button:hover{
+    background-color: rgb(211, 148, 153);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}

@@ -1,0 +1,19 @@
+
+<main class="search-main">
+  <div class="search-results">
+  <a class="home" href="/">Make Another Search</a>
+  <h2>{{characterName}}</h2>
+  {{#if allCharacters}}
+    <ul>
+      {{#each allCharacters}}
+        <li>
+          <a class="character-item" href="/characters/{{this.id}}">{{this.name}}</a>
+
+        </li>
+      {{/each}}
+    </ul>
+  {{else}}
+    <p class="not-found">We're sorry, but no results were found for {{characterName}}.</p>
+  {{/if}}
+  </div>
+</main>
